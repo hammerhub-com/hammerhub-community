@@ -18,7 +18,7 @@ The builder links here from `feedbackOptions.ts` in the OWR Rails repo (`app/fro
 
 `.../issues/new?template=data-issue.yml&platform=iOS+app&content_version=2026.09.30`
 
-Renaming or removing a field `id`, a template filename, or a discussion category slug silently breaks those links. Change them here and in `feedbackOptions.ts` together. Dropdown prefill must match an option label exactly.
+Renaming or removing a field `id`, a template filename, or a discussion category slug silently breaks those links. Change them here and in `feedbackOptions.ts` together. Prefill works on `input` and `textarea` fields. Dropdown prefill did not work when tested, so prefillable fields are inputs.
 
 ## Labels
 

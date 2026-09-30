@@ -27,15 +27,11 @@ body:
         1. Open a Skaven list
         2. Add Clanrats
         3. ...
-  - type: dropdown
+  - type: input
     id: platform
     attributes:
       label: Where did it happen
-      options:
-        - Web (desktop)
-        - Web (mobile browser)
-        - Old World Rankings iOS app
-        - Old World Rankings Android app
+      placeholder: Web (desktop), Web (mobile browser), iOS app or Android app
     validations:
       required: true
   - type: input

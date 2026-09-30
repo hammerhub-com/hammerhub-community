@@ -34,14 +34,11 @@ body:
       label: Source
       description: Book and page, errata, or a link. This is the fastest way to get it fixed.
       placeholder: Forces of Fantasy p. 45, Arcane Journal errata 2025...
-  - type: dropdown
+  - type: input
     id: platform
     attributes:
       label: Where did you see it
-      options:
-        - Web
-        - Old World Rankings iOS app
-        - Old World Rankings Android app
+      placeholder: Web, iOS app or Android app
   - type: input
     id: content_version
     attributes:
