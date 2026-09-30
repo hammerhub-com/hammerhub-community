@@ -24,6 +24,17 @@ body:
         1. Open a Skaven list
         2. Add Clanrats
         3. ...
+  - type: markdown
+    attributes:
+      value: |
+        **Attach the list if you can.** It is the quickest way for us to reproduce this. Open the list, tap **Share**, then either **Copy Text** and paste it below, or **Download** and drag the file in.
+
+        <img src="https://raw.githubusercontent.com/hammerhub-com/hammerhub-community/main/docs/images/share-list.png" alt="The Share list sheet with Copy Text and Download" width="380">
+  - type: textarea
+    id: list_export
+    attributes:
+      label: List export
+      description: Paste the copied text here, or drag the downloaded file into this box.
   - type: input
     id: platform
     attributes:
