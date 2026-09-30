@@ -17,7 +17,7 @@ Everything here is public. Never add Jira links, credentials, internal ticket nu
 
 The builder links here from `feedbackOptions.ts` in the OWR Rails repo (`app/frontend/components/hh_builder/`). Links prefill form fields by query string, keyed by field `id`:
 
-`.../discussions/new?category=data-issues&platform=iOS+app&content_version=2026.09.30`
+`.../discussions/new?category=data-issues&platform=iOS+app&version=2026.09.30`
 
 Renaming or removing a field `id`, a template filename (which must equal the category slug), or a category slug silently breaks those links. Change them here and in `feedbackOptions.ts` together. Prefill works on `input` and `textarea` fields. Dropdown prefill did not work when tested, so prefillable fields are inputs.
 
@@ -34,3 +34,7 @@ Renaming or removing a field `id`, a template filename (which must equal the cat
 ## Triage
 
 Read the discussion, ask follow-ups in the thread, then create the internal ticket. Convert to an Issue only when the work should be tracked publicly. Reply on the discussion when the fix ships. Do not reference internal tickets in public threads.
+
+## Version
+
+Players see one field, "Version", filled in from the app. Never ask them for content, engine or schema versions separately.

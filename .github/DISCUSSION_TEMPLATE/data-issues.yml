@@ -48,7 +48,7 @@ body:
       label: Where did you see it
       placeholder: Web, iOS app or Android app
   - type: input
-    id: content_version
+    id: version
     attributes:
-      label: Content version
-      description: Settings, About, Content stream.
+      label: Version
+      description: Filled in for you if you came from the app.
