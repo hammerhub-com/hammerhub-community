@@ -1,0 +1,50 @@
+name: Bug
+description: Something in Old World Rankings or its Battle Builder is broken or behaves unexpectedly.
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is public. If you have lost lists or cannot sign in, please email support@oldworldrankings.com instead so we can look at your account privately.
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a Skaven list
+        2. Add Clanrats
+        3. ...
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where did it happen
+      options:
+        - Web (desktop)
+        - Web (mobile browser)
+        - Old World Rankings iOS app
+        - Old World Rankings Android app
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      description: Settings, About.
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: Drag images in here if they help.

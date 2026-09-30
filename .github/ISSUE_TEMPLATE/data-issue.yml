@@ -1,0 +1,54 @@
+name: Data issue
+description: Wrong points, a missing unit or option, or a rule that does not match the book, in the Old World Rankings Battle Builder.
+title: "[Data] "
+labels: ["data", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us get the Old World Rankings Battle Builder data right. This form is public, so please do not paste private information.
+  - type: input
+    id: faction
+    attributes:
+      label: Army or faction
+      placeholder: Skaven, Warriors of Chaos, Dwarfen Mountain Holds...
+    validations:
+      required: true
+  - type: input
+    id: unit
+    attributes:
+      label: Unit, option or item
+      placeholder: Great Stag, Crusader's Lance, Rattling Gun...
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: What does the builder show, and what should it show?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Book and page, errata, or a link. This is the fastest way to get it fixed.
+      placeholder: Forces of Fantasy p. 45, Arcane Journal errata 2025...
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where did you see it
+      options:
+        - Web
+        - Old World Rankings iOS app
+        - Old World Rankings Android app
+  - type: input
+    id: content_version
+    attributes:
+      label: Content version
+      description: Settings, About, Content stream.
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: Drag images in here if they help.
