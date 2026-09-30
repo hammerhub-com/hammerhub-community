@@ -1,12 +1,9 @@
-name: Data issue
-description: Wrong points, a missing unit or option, or a rule that does not match the book, in the Old World Rankings Battle Builder.
-title: "[Data] "
-labels: ["data", "needs-triage"]
+labels: ["data"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping us get the Old World Rankings Battle Builder data right. This form is public, so please do not paste private information.
+        Thanks for helping us get the Old World Rankings Battle Builder data right. This is public, so please do not paste private information.
   - type: input
     id: faction
     attributes:
@@ -44,8 +41,3 @@ body:
     attributes:
       label: Content version
       description: Settings, About, Content stream.
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: Screenshots
-      description: Drag images in here if they help.

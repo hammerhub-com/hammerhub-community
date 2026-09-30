@@ -6,13 +6,16 @@ HammerHub is the engine that powers the builder. Old World Rankings is currently
 
 ## Where to post
 
-| I want to... | Go to |
+Everything starts in [Discussions](https://github.com/hammerhub-com/hammerhub-community/discussions). Pick the category that fits:
+
+| I want to... | Category |
 |---|---|
-| Report wrong points, a missing unit or option, or a rule that does not match the book | [Data issue](https://github.com/hammerhub-com/hammerhub-community/issues/new?template=data-issue.yml) |
-| Report something broken in the app | [Bug](https://github.com/hammerhub-com/hammerhub-community/issues/new?template=bug.yml) |
-| Suggest a feature | [Ideas](https://github.com/hammerhub-com/hammerhub-community/discussions/categories/ideas) |
-| Ask how something works | [Q&A](https://github.com/hammerhub-com/hammerhub-community/discussions/categories/q-a) |
-| Chat | [Discord](https://discord.gg/wCkmAT6m52) |
+| Report wrong points, a missing unit or option, or a rule that does not match the book | [Data issues](https://github.com/hammerhub-com/hammerhub-community/discussions/new?category=data-issues) |
+| Report something broken in the app | [Bugs](https://github.com/hammerhub-com/hammerhub-community/discussions/new?category=bugs) |
+| Suggest a feature | [Ideas](https://github.com/hammerhub-com/hammerhub-community/discussions/new?category=ideas) |
+| Ask how something works | [Q&A](https://github.com/hammerhub-com/hammerhub-community/discussions/new?category=q-a) |
+
+Quick chat: [Discord](https://discord.gg/wCkmAT6m52).
 
 Lost lists, sign-in or billing problems: email support@oldworldrankings.com. Do not post those here, this repo is public.
 
@@ -21,9 +24,9 @@ You can also reach these forms from the Send Feedback menu inside the Battle Bui
 ## Good reports
 
 - For data issues, name the book and page. It is the quickest way to get a fix out.
-- One problem per issue.
+- One problem per post.
 - Do not paste anything you would not want public.
 
 ## What happens next
 
-We triage new issues and discussions, reply here, and close an issue when the fix has shipped. You will be notified on GitHub when anything changes.
+We read every post and reply here. When something needs work we track it internally, and we reply on your post when the fix has shipped. You will be notified on GitHub when anything changes.
