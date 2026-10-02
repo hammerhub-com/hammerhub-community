@@ -2,7 +2,7 @@
 
 Public repo. Feedback intake for HammerHub products: GitHub Discussion categories with forms, and docs. No application code.
 
-Players only ever use Discussions. Issues are maintainer-only: we open one ourselves (or convert a discussion) once a report is accepted. Never point players at the Issues tab.
+Players only use Discussions. The Issues feature is switched off: tracking lives in Jira, and a resolved report is shown by marking the reply that says it shipped as the answer (Data issues, Bugs and Q&A use the Question / Answer format). Ideas is open-ended, so close it with a reason instead.
 
 Branding: HammerHub is the engine, not a consumer product. Old World Rankings is the only HammerHub product so far, so user-facing copy names "Old World Rankings" (and its Battle Builder) and treats HammerHub as the engine behind it. The repo name and structure stay generic so later products slot in. When a second product launches, add a product dropdown to the forms and a category per product rather than forking the repo.
 
@@ -33,7 +33,7 @@ Renaming or removing a field `id`, a template filename (which must equal the cat
 
 ## Triage
 
-Read the discussion, ask follow-ups in the thread, then create the internal ticket. Convert to an Issue only when the work should be tracked publicly. Reply on the discussion when the fix ships. Do not reference internal tickets in public threads.
+Read the discussion, ask follow-ups in the thread, then create the internal ticket. Reply on the discussion when the fix ships and mark that reply as the answer. Do not reference internal tickets in public threads.
 
 ## Version
 
