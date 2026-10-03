@@ -21,20 +21,9 @@ body:
     attributes:
       label: Steps to reproduce
       placeholder: |
-        1. Open a Skaven list
-        2. Add Clanrats
+        1. Open the page or list
+        2. Tap the thing
         3. ...
-  - type: markdown
-    attributes:
-      value: |
-        **Attach the list if you can.** It is the quickest way for us to reproduce this. Open the list, tap **Share**, then either **Copy Text** and paste it below, or **Download** and drag the file in.
-
-        <img src="https://raw.githubusercontent.com/hammerhub-com/hammerhub-community/main/docs/images/share-list.png" alt="The Share list sheet with Copy Text and Download" width="380">
-  - type: textarea
-    id: list_export
-    attributes:
-      label: List export
-      description: Paste the copied text here, or drag the downloaded file into this box.
   - type: input
     id: platform
     attributes:
@@ -42,8 +31,21 @@ body:
       placeholder: Web (desktop), Web (mobile browser), iOS app or Android app
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Battle Builder issue? Add these extra details
+
+        **Attach the list if you can.** It is the quickest way for us to reproduce it. Open the list, tap **Share**, then either **Copy Text** and paste it below, or **Download** and drag the file in.
+
+        <img src="https://raw.githubusercontent.com/hammerhub-com/hammerhub-community/main/docs/images/share-list.png" alt="The Share list sheet with Copy Text and Download" width="380">
+  - type: textarea
+    id: list_export
+    attributes:
+      label: List export (Battle Builder only)
+      description: Paste the copied text here, or drag the downloaded file into this box.
   - type: input
     id: version
     attributes:
-      label: Version
-      description: Filled in for you if you came from the app.
+      label: Version (Battle Builder only)
+      description: Filled in for you if you came from the Battle Builder.

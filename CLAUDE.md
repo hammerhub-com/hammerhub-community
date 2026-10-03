@@ -2,7 +2,7 @@
 
 Public repo. Feedback intake for HammerHub products: GitHub Discussion categories with forms, and docs. No application code.
 
-Players only use Discussions. The Issues feature is switched off: tracking lives in Jira, and a resolved report is shown by marking the reply that says it shipped as the answer (Data issues, Bugs and Q&A use the Question / Answer format). Ideas is open-ended, so close it with a reason instead.
+Players only use Discussions. Bugs cover all of Old World Rankings, so Battle Builder specifics (list export, version) are optional extras in that form, not required fields. The Issues feature is switched off: tracking lives in Jira, and a resolved report is shown by marking the reply that says it shipped as the answer (Data issues, Bugs and Q&A use the Question / Answer format). Ideas is open-ended, so close it with a reason instead.
 
 Branding: HammerHub is the engine, not a consumer product. Old World Rankings is the only HammerHub product so far, so user-facing copy names "Old World Rankings" (and its Battle Builder) and treats HammerHub as the engine behind it. The repo name and structure stay generic so later products slot in. When a second product launches, add a product dropdown to the forms and a category per product rather than forking the repo.
 
